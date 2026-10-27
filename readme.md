@@ -69,7 +69,7 @@ When running the interactive TUI mode, use the following keys for navigation:
 
 Here are some recommended science feeds you can add to your `newsreader` right away:
 
-### Science 🌌
+### Science
 * **Phys.org Latest News**
   ```bash
   ./newsreader add https://phys.org/rss-feed/
