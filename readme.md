@@ -62,7 +62,9 @@ When running the interactive TUI mode, use the following keys for navigation:
 ```bash
 ./newsreader
 ```
-
+![RSS 1](rss1.png)
+![RSS 2](rss2.png)
+![RSS 3](rss3.png)
 ---
 
 ## Some Interesting RSS Feeds
