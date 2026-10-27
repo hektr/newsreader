@@ -50,7 +50,7 @@ When running the interactive TUI mode, use the following keys for navigation:
 
 **a) Add a new Habr RSS feed:**
 ```bash
-./newsreader add [https://habr.com](https://habr.com/ru/rss/best/)
+./newsreader add https://habr.com/ru/rss/best/
 ```
 
 **b) Fetch and download all new articles:**
