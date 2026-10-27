@@ -1,0 +1,21 @@
+[package]
+name = "newsreader"
+version = "0.1.0"
+edition = "2024"
+description = "Terminal RSS reader with TUI"
+authors = ["hektr <hektr992@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+crossterm = "0.29.0"
+dirs = "7.0.0"
+feed-rs = "3.0.0"
+ratatui = "0.30.2"
+readability = "0.3.0"
+reqwest = { version = "0.13.5", features = ["blocking"] }
+rusqlite = { version = "0.41.0", features = ["bundled"] }
+textwrap = "0.16.4"
+url = "2.5.8"
+
+[profile.release]
+strip = true

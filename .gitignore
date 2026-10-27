@@ -1,0 +1,8 @@
+/target
+*.xml
+*.txt
+*.lock
+*.db
+*.db-wal
+*.db-shm
+**/*.rs.bk
