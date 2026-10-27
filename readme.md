@@ -1,10 +1,10 @@
 # Newsreader CLI & TUI 
 
-A simple and efficient command-line RSS reader featuring a full Terminal User Interface (TUI).
+A simple and command-line RSS reader featuring a full Terminal User Interface (TUI).
 
 ---
 
-##  Usage
+## 🚀 Usage
 
 Run the tool directly from your terminal:
 
@@ -46,11 +46,11 @@ When running the interactive TUI mode, use the following keys for navigation:
 
 ---
 
-## Examples
+##  Examples
 
-**a) Add a new Habr RSS feed:**
+**a) Add a new RSS feed:**
 ```bash
-./newsreader add https://habr.com/ru/rss/best/
+./newsreader add https://phys.org/rss-feed/
 ```
 
 **b) Fetch and download all new articles:**
@@ -63,3 +63,18 @@ When running the interactive TUI mode, use the following keys for navigation:
 ./newsreader
 ```
 
+---
+
+## Some Interesting RSS Feeds
+
+Here are some recommended science feeds you can add to your `newsreader` right away:
+
+### Science 🌌
+* **Phys.org Latest News**
+  ```bash
+  ./newsreader add https://phys.org/rss-feed/
+  ```
+* **ScienceDaily Top Science News**
+  ```bash
+  ./newsreader add https://www.sciencedaily.com/rss/top.xml
+  ```
